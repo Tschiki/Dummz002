@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RC Musterstadt – Rugby Club</title>
+  <meta name="description" content="RC Musterstadt – Rugby für Herren, Damen und Jugend. Training, Spielplan, News und Mitgliedschaft.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="RC Musterstadt – zur Startseite">
+        <img src="img/logo.svg" alt="" width="44" height="44">
+        <span class="brand-text">RC <strong>Musterstadt</strong></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="#verein">Verein</a></li>
+          <li><a href="#teams">Teams &amp; Training</a></li>
+          <li><a href="#spielplan">Spielplan</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#mitglied">Mitglied werden</a></li>
+          <li><a href="#kontakt" class="nav-cta">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Seit 1978 · Rugby in Musterstadt</p>
+        <h1>Gemeinsam stark.<br>Auf dem Feld und daneben.</h1>
+        <p class="lead">Der RC Musterstadt steht für Teamgeist, Respekt und Leidenschaft. Ob Anfänger, Wiedereinsteiger oder erfahrener Spieler – bei uns ist jeder willkommen.</p>
+        <div class="hero-actions">
+          <a href="#mitglied" class="btn btn-gold">Probetraining vereinbaren</a>
+          <a href="#spielplan" class="btn btn-outline">Zum Spielplan</a>
+        </div>
+      </div>
+      <div class="next-match container" aria-label="Nächstes Heimspiel">
+        <div class="next-match-label">Nächstes Heimspiel</div>
+        <div class="next-match-teams">
+          <span>RC Musterstadt</span>
+          <span class="vs">vs</span>
+          <span>RFC Beispielberg</span>
+        </div>
+        <div class="next-match-meta">Sa, 05.12.2026 · 14:30 Uhr · Sportanlage Musterstadt</div>
+        <div class="countdown" id="countdown" data-kickoff="2026-12-05T14:30:00+01:00">
+          <div><span data-unit="days">--</span><small>Tage</small></div>
+          <div><span data-unit="hours">--</span><small>Std</small></div>
+          <div><span data-unit="minutes">--</span><small>Min</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Verein -->
+    <section id="verein" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Über uns</p>
+          <h2>Verein &amp; Geschichte</h2>
+        </div>
+
+        <div class="grid-2">
+          <div>
+            <p>Der RC Musterstadt wurde 1978 von einer Handvoll Studenten gegründet, die den Sport aus England mitgebracht hatten. Was auf einer Wiese hinter dem Stadtbad begann, ist heute einer der aktivsten Rugbyvereine der Region mit über 200 Mitgliedern.</p>
+            <p>Unsere Werte sind die Werte des Rugby: Integrität, Leidenschaft, Solidarität, Disziplin und Respekt. Nach dem Schlusspfiff stehen beide Mannschaften gemeinsam beim „Third Half“ zusammen – das gehört bei uns einfach dazu.</p>
+            <ul class="stats">
+              <li><strong>200+</strong><span>Mitglieder</span></li>
+              <li><strong>6</strong><span>Mannschaften</span></li>
+              <li><strong>3</strong><span>Meistertitel</span></li>
+            </ul>
+          </div>
+
+          <ol class="timeline" aria-label="Vereinsgeschichte">
+            <li><span class="year">1978</span><p>Gründung des Vereins durch 15 Rugby-Begeisterte.</p></li>
+            <li><span class="year">1986</span><p>Erstes eigenes Spielfeld an der Sportanlage Musterstadt.</p></li>
+            <li><span class="year">1994</span><p>Gründung der Jugendabteilung.</p></li>
+            <li><span class="year">2009</span><p>Erster Meistertitel der Herrenmannschaft.</p></li>
+            <li><span class="year">2015</span><p>Start der Damenmannschaft.</p></li>
+            <li><span class="year">2024</span><p>Neues Klubhaus mit Kabinen und Vereinslokal.</p></li>
+          </ol>
+        </div>
+
+        <h3 class="subhead">Vorstand</h3>
+        <div class="board">
+          <article class="person">
+            <div class="avatar" aria-hidden="true">MM</div>
+            <h4>Max Mustermann</h4>
+            <p>Obmann</p>
+          </article>
+          <article class="person">
+            <div class="avatar" aria-hidden="true">EB</div>
+            <h4>Erika Beispiel</h4>
+            <p>Obmann-Stellvertreterin</p>
+          </article>
+          <article class="person">
+            <div class="avatar" aria-hidden="true">TM</div>
+            <h4>Thomas Muster</h4>
+            <p>Kassier</p>
+          </article>
+          <article class="person">
+            <div class="avatar" aria-hidden="true">SH</div>
+            <h4>Sabine Huber</h4>
+            <p>Jugendleiterin</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teams -->
+    <section id="teams" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Mannschaften</p>
+          <h2>Teams &amp; Training</h2>
+          <p>Trainiert wird auf der Sportanlage Musterstadt. Probetraining ist jederzeit möglich – einfach vorbeikommen oder vorher kurz melden.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card team">
+            <h3>Herren XV</h3>
+            <p class="team-league">Bundesliga</p>
+            <p>Unsere erste Mannschaft spielt in der höchsten Liga und kämpft jede Saison um den Titel.</p>
+            <dl class="training">
+              <dt>Di &amp; Do</dt><dd>19:00 – 21:00 Uhr</dd>
+            </dl>
+            <p class="coach">Trainer: Andreas Beispiel</p>
+          </article>
+          <article class="card team">
+            <h3>Herren II</h3>
+            <p class="team-league">Regionalliga</p>
+            <p>Ideal für Einsteiger und Routiniers, die Spielpraxis sammeln wollen.</p>
+            <dl class="training">
+              <dt>Di &amp; Do</dt><dd>19:00 – 21:00 Uhr</dd>
+            </dl>
+            <p class="coach">Trainer: Peter Muster</p>
+          </article>
+          <article class="card team">
+            <h3>Damen XV / 7s</h3>
+            <p class="team-league">Damenliga</p>
+            <p>Unser Damenteam wächst stetig – Neueinsteigerinnen sind herzlich willkommen.</p>
+            <dl class="training">
+              <dt>Mo &amp; Mi</dt><dd>18:30 – 20:30 Uhr</dd>
+            </dl>
+            <p class="coach">Trainerin: Julia Beispiel</p>
+          </article>
+          <article class="card team">
+            <h3>U18 / U16</h3>
+            <p class="team-league">Jugendliga</p>
+            <p>Leistungsorientiertes Training für Jugendliche mit Turnieren im In- und Ausland.</p>
+            <dl class="training">
+              <dt>Mo &amp; Mi</dt><dd>17:00 – 18:30 Uhr</dd>
+            </dl>
+            <p class="coach">Trainer: Markus Huber</p>
+          </article>
+          <article class="card team">
+            <h3>U14 / U12</h3>
+            <p class="team-league">Nachwuchs</p>
+            <p>Spielerischer Einstieg in den Rugbysport mit Fokus auf Technik und Fairness.</p>
+            <dl class="training">
+              <dt>Fr</dt><dd>16:30 – 18:00 Uhr</dd>
+            </dl>
+            <p class="coach">Trainerin: Sabine Huber</p>
+          </article>
+          <article class="card team">
+            <h3>Minis (U6 – U10)</h3>
+            <p class="team-league">Kinderrugby</p>
+            <p>Bewegung, Spaß und erste Ballerfahrungen – ganz ohne Tackling.</p>
+            <dl class="training">
+              <dt>Sa</dt><dd>10:00 – 11:30 Uhr</dd>
+            </dl>
+            <p class="coach">Trainer: Lukas Muster</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Spielplan -->
+    <section id="spielplan" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Saison 2026/27</p>
+          <h2>Spielplan &amp; Ergebnisse</h2>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Spielplan filtern">
+          <button role="tab" aria-selected="true" data-filter="alle">Alle</button>
+          <button role="tab" aria-selected="false" data-filter="herren">Herren</button>
+          <button role="tab" aria-selected="false" data-filter="damen">Damen</button>
+          <button role="tab" aria-selected="false" data-filter="jugend">Jugend</button>
+        </div>
+
+        <div class="table-wrap">
+          <table class="fixtures">
+            <thead>
+              <tr>
+                <th scope="col">Datum</th>
+                <th scope="col">Team</th>
+                <th scope="col">Begegnung</th>
+                <th scope="col">Ort</th>
+                <th scope="col">Ergebnis</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-team="herren">
+                <td>07.11.2026</td><td>Herren XV</td>
+                <td>RC Musterstadt – RC Nordhausen</td><td>Heim</td>
+                <td><span class="result win">34 : 12</span></td>
+              </tr>
+              <tr data-team="damen">
+                <td>08.11.2026</td><td>Damen</td>
+                <td>RU Talstadt – RC Musterstadt</td><td>Auswärts</td>
+                <td><span class="result win">10 : 22</span></td>
+              </tr>
+              <tr data-team="jugend">
+                <td>14.11.2026</td><td>U18</td>
+                <td>RC Musterstadt – Jugend Seeburg</td><td>Heim</td>
+                <td><span class="result loss">15 : 19</span></td>
+              </tr>
+              <tr data-team="herren">
+                <td>21.11.2026</td><td>Herren XV</td>
+                <td>RFC Bergdorf – RC Musterstadt</td><td>Auswärts</td>
+                <td><span class="result draw">17 : 17</span></td>
+              </tr>
+              <tr data-team="herren">
+                <td>05.12.2026</td><td>Herren XV</td>
+                <td>RC Musterstadt – RFC Beispielberg</td><td>Heim</td>
+                <td><span class="result upcoming">14:30</span></td>
+              </tr>
+              <tr data-team="damen">
+                <td>06.12.2026</td><td>Damen</td>
+                <td>RC Musterstadt – Ladies Flussheim</td><td>Heim</td>
+                <td><span class="result upcoming">13:00</span></td>
+              </tr>
+              <tr data-team="jugend">
+                <td>12.12.2026</td><td>U16</td>
+                <td>Turnier in Seeburg</td><td>Auswärts</td>
+                <td><span class="result upcoming">10:00</span></td>
+              </tr>
+              <tr data-team="herren">
+                <td>13.03.2027</td><td>Herren II</td>
+                <td>RC Musterstadt II – RC Waldheim</td><td>Heim</td>
+                <td><span class="result upcoming">15:00</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="legend">
+          <span class="result win">S</span> Sieg
+          <span class="result draw">U</span> Unentschieden
+          <span class="result loss">N</span> Niederlage
+        </p>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Aktuelles</p>
+          <h2>News</h2>
+        </div>
+        <div class="cards news-cards">
+          <article class="card news">
+            <div class="news-img news-img-1" aria-hidden="true"></div>
+            <div class="news-body">
+              <time datetime="2026-11-08">08. November 2026</time>
+              <h3>Klarer Heimsieg zum Saisonauftakt</h3>
+              <p>Mit fünf Versuchen setzten sich unsere Herren deutlich gegen den RC Nordhausen durch. Besonders die Gedrängearbeit überzeugte.</p>
+            </div>
+          </article>
+          <article class="card news">
+            <div class="news-img news-img-2" aria-hidden="true"></div>
+            <div class="news-body">
+              <time datetime="2026-10-20">20. Oktober 2026</time>
+              <h3>Damen gewinnen 7s-Turnier</h3>
+              <p>Ungeschlagen holte sich unser Damenteam den Turniersieg beim Herbstcup – ein großer Erfolg für die junge Mannschaft.</p>
+            </div>
+          </article>
+          <article class="card news">
+            <div class="news-img news-img-3" aria-hidden="true"></div>
+            <div class="news-body">
+              <time datetime="2026-10-02">02. Oktober 2026</time>
+              <h3>Weihnachtsfeier im Klubhaus</h3>
+              <p>Am 19. Dezember laden wir alle Mitglieder, Familien und Freunde zur Weihnachtsfeier ins Klubhaus ein. Anmeldung bis 10. Dezember.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mitglied werden -->
+    <section id="mitglied" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Mitmachen</p>
+          <h2>Mitglied werden</h2>
+          <p>Du willst Rugby ausprobieren? Komm zu einem kostenlosen Probetraining. Ausrüstung brauchst du am Anfang keine – Sportkleidung und Schuhe mit Stollen reichen.</p>
+        </div>
+
+        <div class="pricing">
+          <article class="price-card">
+            <h3>Kinder &amp; Jugend</h3>
+            <p class="price"><strong>120 €</strong> / Jahr</p>
+            <ul>
+              <li>Training ab 5 Jahren</li>
+              <li>Teilnahme an Turnieren</li>
+              <li>Vereinsdress inklusive</li>
+            </ul>
+          </article>
+          <article class="price-card featured">
+            <h3>Aktive</h3>
+            <p class="price"><strong>240 €</strong> / Jahr</p>
+            <ul>
+              <li>Training in allen Erwachsenenteams</li>
+              <li>Spielberechtigung im Ligabetrieb</li>
+              <li>Vereinsdress inklusive</li>
+            </ul>
+          </article>
+          <article class="price-card">
+            <h3>Unterstützende</h3>
+            <p class="price"><strong>60 €</strong> / Jahr</p>
+            <ul>
+              <li>Freier Eintritt zu Heimspielen</li>
+              <li>Einladung zu Vereinsfesten</li>
+              <li>Unterstützung des Nachwuchses</li>
+            </ul>
+          </article>
+        </div>
+        <p class="note">Studierende, Lehrlinge und Familien erhalten Ermäßigungen. Die Beiträge sind Platzhalter und an die tatsächliche Beitragsordnung anzupassen.</p>
+      </div>
+    </section>
+
+    <!-- Sponsoren -->
+    <section class="section section-alt sponsors-section" aria-labelledby="sponsoren-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Partner</p>
+          <h2 id="sponsoren-title">Unsere Sponsoren</h2>
+        </div>
+        <ul class="sponsors">
+          <li>Musterbau GmbH</li>
+          <li>Bäckerei Beispiel</li>
+          <li>Autohaus Muster</li>
+          <li>Sparkasse Musterstadt</li>
+          <li>Gasthaus zur Linde</li>
+          <li>Sport Huber</li>
+        </ul>
+        <p class="center"><a href="#kontakt" class="link-gold">Sponsor werden – sprich uns an</a></p>
+      </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Kontakt</p>
+          <h2>Kontakt &amp; Anfahrt</h2>
+        </div>
+
+        <div class="grid-2">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="email">E-Mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="anliegen">Anliegen</label>
+              <select id="anliegen" name="anliegen">
+                <option>Probetraining</option>
+                <option>Mitgliedschaft</option>
+                <option>Sponsoring</option>
+                <option>Sonstiges</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="nachricht">Nachricht</label>
+              <textarea id="nachricht" name="nachricht" rows="5" required></textarea>
+            </div>
+            <div class="field checkbox">
+              <input id="dsgvo" name="dsgvo" type="checkbox" required>
+              <label for="dsgvo">Ich stimme der Verarbeitung meiner Daten gemäß der <a href="#datenschutz">Datenschutzerklärung</a> zu.</label>
+            </div>
+            <button type="submit" class="btn btn-gold">Nachricht senden</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-info">
+            <h3>RC Musterstadt</h3>
+            <address>
+              Sportanlage Musterstadt<br>
+              Sportplatzstraße 1<br>
+              1234 Musterstadt
+            </address>
+            <p>
+              E-Mail: <a href="mailto:office@rc-musterstadt.at">office@rc-musterstadt.at</a><br>
+              Telefon: <a href="tel:+43123456789">+43 1 234 567 89</a>
+            </p>
+            <h3>Anfahrt</h3>
+            <p>Öffentlich: Bus 12 bis Haltestelle „Sportanlage“, danach 3 Gehminuten.<br>
+            Mit dem Auto: Parkplätze direkt an der Anlage vorhanden.</p>
+            <div class="map-placeholder" aria-label="Platzhalter für Karte">
+              <span>Kartenausschnitt</span>
+              <small>Hier kann z. B. eine OpenStreetMap-Karte eingebunden werden.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="brand brand-footer">
+          <img src="img/logo.svg" alt="" width="36" height="36">
+          <span class="brand-text">RC <strong>Musterstadt</strong></span>
+        </div>
+        <p>Rugby seit 1978.</p>
+      </div>
+      <nav aria-label="Rechtliches">
+        <ul>
+          <li><a href="#impressum" id="impressum">Impressum</a></li>
+          <li><a href="#datenschutz" id="datenschutz">Datenschutz</a></li>
+          <li><a href="#top">Nach oben</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> RC Musterstadt. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

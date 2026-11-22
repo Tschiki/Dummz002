@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="RC Musterstadt Logo">
+  <path d="M32 2 L58 12 V32 C58 47 46 57 32 62 C18 57 6 47 6 32 V12 Z" fill="#0b2545" stroke="#d4a017" stroke-width="3"/>
+  <ellipse cx="32" cy="32" rx="17" ry="10" transform="rotate(-35 32 32)" fill="#d4a017"/>
+  <path d="M22 39 L42 25" stroke="#0b2545" stroke-width="2"/>
+  <path d="M28 31 L30 34 M31 29 L33 32 M34 27 L36 30" stroke="#0b2545" stroke-width="2" stroke-linecap="round"/>
+</svg>
